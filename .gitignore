@@ -1,0 +1,6 @@
+/docker-compose.override.yml
+/src/.nuxt/
+/src/.output/
+/src/config/config.js
+/src/node_modules/
+/src/public/upload/*

@@ -1,0 +1,28 @@
+{
+  "type": "module",
+  "scripts": {
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "generate": "nuxt generate",
+    "start": "nuxt start",
+    "knex": "knex --knexfile config/knex.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "connect-session-knex": "^3.0.1",
+    "express-session": "^1.17.3",
+    "knex": "^2.5.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.6.1",
+    "validatorjs": "^3.22.1"
+  },
+  "devDependencies": {
+    "nuxt": "^3.10.3",
+    "pug": "^3.0.2",
+    "sass": "^1.72.0",
+    "vanillajs-datepicker": "^1.3.4",
+    "vue-final-modal": "^4.5.4",
+    "vue3-carousel-nuxt": "^1.1.1",
+    "vue3-perfect-scrollbar": "^2.0.0"
+  }
+}
